@@ -69,7 +69,7 @@ compileOptions {
 In `android/app/proguard-rules.pro` add the following on a new line.
 
 ```proguard
--keep class org.webrtc.** { *; }
+-keep class livekit.org.webrtc.** { *; }
 ```
 
 ## Screen Capture Support - Android 10+
@@ -147,9 +147,9 @@ notifee.registerForegroundService( notification => {
 ## Fatal Exception: java.lang.UnsatisfiedLinkError
 
 ```
-Fatal Exception: java.lang.UnsatisfiedLinkError: No implementation found for void org.webrtc.PeerConnectionFactory.nativeInitializeAndroidGlobals() (tried Java_org_webrtc_PeerConnectionFactory_nativeInitializeAndroidGlobals and Java_org_webrtc_PeerConnectionFactory_nativeInitializeAndroidGlobals__)
-	at org.webrtc.PeerConnectionFactory.nativeInitializeAndroidGlobals(PeerConnectionFactory.java)
-	at org.webrtc.PeerConnectionFactory.initialize(PeerConnectionFactory.java:306)
+Fatal Exception: java.lang.UnsatisfiedLinkError: No implementation found for void livekit.org.webrtc.PeerConnectionFactory.nativeInitializeAndroidGlobals() (tried Java_org_webrtc_PeerConnectionFactory_nativeInitializeAndroidGlobals and Java_org_webrtc_PeerConnectionFactory_nativeInitializeAndroidGlobals__)
+	at livekit.org.webrtc.PeerConnectionFactory.nativeInitializeAndroidGlobals(PeerConnectionFactory.java)
+	at livekit.org.webrtc.PeerConnectionFactory.initialize(PeerConnectionFactory.java:306)
 	at com.oney.WebRTCModule.WebRTCModule.initAsync(WebRTCModule.java:79)
 	at com.oney.WebRTCModule.WebRTCModule.lambda$new$0(WebRTCModule.java:70)
 	at com.oney.WebRTCModule.-$$Lambda$WebRTCModule$CnyHZvkjDxq52UReGHUZlY0JsVw.run(-.java:4)

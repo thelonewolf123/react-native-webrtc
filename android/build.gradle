@@ -30,6 +30,6 @@ android {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    api 'org.jitsi:webrtc:124.+'
+    api 'io.github.webrtc-sdk:android-prefixed:125.6422.05'
     implementation "androidx.core:core:1.7.0"
 }
