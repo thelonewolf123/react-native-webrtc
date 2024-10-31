@@ -8,14 +8,14 @@ import androidx.annotation.Nullable;
 
 import com.facebook.react.bridge.ReadableMap;
 
-import org.webrtc.Camera1Capturer;
-import org.webrtc.Camera1Helper;
-import org.webrtc.Camera2Capturer;
-import org.webrtc.Camera2Helper;
-import org.webrtc.CameraEnumerator;
-import org.webrtc.CameraVideoCapturer;
-import org.webrtc.Size;
-import org.webrtc.VideoCapturer;
+import livekit.org.webrtc.Camera1Capturer;
+import livekit.org.webrtc.Camera1Helper;
+import livekit.org.webrtc.Camera2Capturer;
+import livekit.org.webrtc.Camera2Helper;
+import livekit.org.webrtc.CameraEnumerator;
+import livekit.org.webrtc.CameraVideoCapturer;
+import livekit.org.webrtc.Size;
+import livekit.org.webrtc.VideoCapturer;
 
 import java.util.ArrayList;
 import java.util.List;
